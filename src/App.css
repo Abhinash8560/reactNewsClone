@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* footer css */
+
+.footer {
+  background-color: black;
+  padding: 4rem 0rem;
+      /* position: initial; */
+      margin-top: 22rem;
+}
+.footer .content .footer-logo {
+  width: 10rem;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+.footer .content menu > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer .content menu > ul > li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-self: center;
+  padding: 0.5rem;
+}
+.footer .content menu > ul > li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .content .follow-us P {
+  color: #fff;
+  text-align: center;
+}
+.footer .content .follow-us section {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.footer .content .follow-us section div {
+  width: 2rem;
+  border-radius: 10px;
+}
+.footer .content .follow-us section div svg {
+  transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+  .footer .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  .footer .content .footer-logo {
+    margin: unset;
+  }
+  .footer .content menu > ul {
+    grid-template-columns: 15rem 15rem;
+  }
+}
+
+
